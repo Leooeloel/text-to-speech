@@ -1,36 +1,33 @@
-# Netless App Template
+# 文本朗读
 
-[Netless App 文档](https://github.com/netless-io/window-manager/blob/master/docs/develop-app.md)
+## 项目简介
+文本朗读白板插件是一款方便教师教授语言的一款插件。
 
-## 快速开始
+当前大家多数沉浸在使用键盘作为主要输入的情景下，有时候对于生僻字，时常不知道该如何去读，并理解其真正含义，看到一个字有时候经常会犯迷糊，这个字到底读什么。为了避免这种尴尬局面的发生，我们使用浏览器自带的文本朗读功能，就可以轻松解决这个烦恼，让生活中不再有不认识不会读的字。
 
-前置条件：至少需要安装了 `git`、`node 16`、`npm 8`。
 
-1.  点击右上角 `Use this template` 生成一个属于你自己的仓库
+## 安装部署指南
 
-    如果需要选用原生以外的模版，请勾上 `Include all branches`
+```shell
+npm i
+npm run build
+```
 
-    > 如果你安装了 [GitHub CLI](https://cli.github.com)，也可以用这个命令一键生成并 clone 本仓库
-    >
-    >     gh repo create your-app-name --template netless-io/community-apps --include-all-branches
 
-2.  在 .env 文件里配置白板房间 UUID 和 Token
+## 功能简介
+> 1、输入文本内容
 
-    请将本目录下的 .env.example 文件复制一份，重命名为 .env 或 .env.local 后，在里面填写必须的白板配置信息。你可以在 [Netless Workshop](https://workshop.netless.link) 申请专用的白板配置。
+> 2、朗读与暂停文本框中的内容
 
-3.  执行 `npm install` 安装依赖
 
-4.  执行 `npm start` 进行本地开发
+## 二次开发
+无
 
-## 提交到社区 App 列表
 
-开发完 App 后，可以在 [Community Apps](https://github.com/netless-io/community-apps) 仓库提交你的项目，方便更多人发现和使用。
+## 其他资料
+无
 
-## 清单
+---
+# 许可协议
 
-- [ ] 添加 .env 或 .env.local
-- [ ] 修改 package.json 里的 `name`，`private` 等字段
-- [ ] (可选) 发布 npm 包
-- [ ] 添加 License
-- [ ] 修改 README
-- [ ] (可选) 添加 Logo
+该参赛作品的源代码以`MIT`开源协议对外开源
